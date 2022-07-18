@@ -35,5 +35,11 @@ This unpacks the tar file into a tmp directory, figures out the os+arch version 
 With this argument "John", you should see something like:
 
 ```bash
+hello John from: darwin/arm64
+```
+
+If you pass with no arguments, you will get something like:
+
+```bash
 hello someone from: darwin/arm64
 ```
