@@ -12,7 +12,7 @@ You could modify this to be more size friendly and have it download the version 
 
 * bin/ is where our Go binaries are stored
 * hello.go is our Go main file
-* kusto.sh is the shell script skeleton
+* hello.sh is the shell script skeleton
 * run.sh is the shell script that embeds our Go binaries and then executes the one for the platform
 * build_for_platform.sh build our Go binaries, and build the run.sh file
 
