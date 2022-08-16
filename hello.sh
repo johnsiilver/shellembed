@@ -31,10 +31,10 @@ else
 fi
 
 # make our directory if it doesn't exist.
-mkdir -p /tmp/kustoshell
+mkdir -p /tmp/helloshell
 
 # directory where a tarball is to be extracted
-WORK_DIR=/tmp/kustoshell
+WORK_DIR=/tmp/helloshell
 
 # extract the embedded tar file
 tail -n +${PAYLOAD_LINE} $0 | tar -zpx -C $WORK_DIR >/dev/null 2>&1
